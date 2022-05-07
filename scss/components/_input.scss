@@ -1,0 +1,11 @@
+@import "../vars";
+.form-control {
+    position: relative;
+    width: 50%;
+    height: 20px;
+    border-radius: 50px;
+    background-color: $primary;
+    &:hover {
+        border: silver solid 1px;
+    }
+}
