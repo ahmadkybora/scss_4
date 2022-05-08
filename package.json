@@ -5,12 +5,23 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "scss": "node-sass --watch scss -o css"
+        "scss": "node-sass --watch scss -o css",
+        "postcss:watch": "postcss css/style.css --dir public/css --watch"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "node-sass": "^7.0.1"
+        "node-sass": "^7.0.1",
+        "postcss-cli": "^9.1.0"
+    },
+    "devDependencies": {
+        "cssnano": "^5.1.7",
+        "postcss": "^8.4.13",
+        "postcss-import": "^14.1.0",
+        "postcss-loader": "^6.2.1",
+        "postcss-preset-env": "^7.5.0",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2"
     }
 }
