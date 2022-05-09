@@ -40,12 +40,84 @@
 }
 
 // rounded
-.f-rounded-sm {
-    border-radius: 25px;
+.f-rounded-1 {
+    border-radius: 1px;
 }
 
-.f-rounded-md {
-    border-radius: 50px;
+.f-rounded-2 {
+    border-radius: 2px;
+}
+
+.f-rounded-3 {
+    border-radius: 3px;
+}
+
+.f-rounded-4 {
+    border-radius: 4px;
+}
+
+.f-rounded-5 {
+    border-radius: 5px;
+}
+
+.f-rounded-6 {
+    border-radius: 6px;
+}
+
+.f-rounded-7 {
+    border-radius: 7px;
+}
+
+.f-rounded-8 {
+    border-radius: 8px;
+}
+
+.f-rounded-9 {
+    border-radius: 9px;
+}
+
+.f-rounded-10 {
+    border-radius: 10px;
+}
+
+.f-rounded-11 {
+    border-radius: 11px;
+}
+
+.f-rounded-12 {
+    border-radius: 12px;
+}
+
+.f-rounded-13 {
+    border-radius: 13px;
+}
+
+.f-rounded-14 {
+    border-radius: 14px;
+}
+
+.f-rounded-15 {
+    border-radius: 15px;
+}
+
+.f-rounded-16 {
+    border-radius: 16px;
+}
+
+.f-rounded-17 {
+    border-radius: 17px;
+}
+
+.f-rounded-18 {
+    border-radius: 18px;
+}
+
+.f-rounded-19 {
+    border-radius: 19px;
+}
+
+.f-rounded-20 {
+    border-radius: 20px;
 }
 
 // border
@@ -271,6 +343,7 @@
     margin: 5%;
 }
 
+// row
 .f-row {
     border: none;
     height: auto;
@@ -278,5 +351,19 @@
     display: flex;
     margin: auto;
     padding: 1%;
-    justify-content: space-around;
+}
+
+// container
+.f-container {
+    border: none;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+
+// justify-content: center
+.f-justify-center {
+    display: flex;
+    justify-content: center;
 }
