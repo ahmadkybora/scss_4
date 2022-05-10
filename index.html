@@ -15,20 +15,43 @@
     <div class="f-alert-success f-rounded-10 f-w-50 f-ml-5 f-mb-5">
         <p class="f-pt-5">hello</p>
     </div>
-    <div class="f-row">
-        <div class="f-alert-danger f-col-xs-12 f-col-sm-6 f-col-md-3 f-col-lg-2 f-col-xl-1 f-rounded-10">
+
+    <div class="f-flex">
+        <div class="f-flex-grow-1 f-alert f-alert-danger f-rounded-10">
             <p class="f-pt-5">hello</p>
         </div>
-        <div class="f-alert-danger f-col-xs-12 f-col-sm-6 f-col-md-3 f-col-lg-2 f-col-xl-1 f-rounded-10">
+        <div class="f-flex-grow-2 f-alert f-alert-danger f-rounded-10">
             <p class="f-pt-5">hello</p>
         </div>
-        <div class="f-alert-success f-col-xs-12 f-col-sm-6 f-col-md-3 f-col-lg-2 f-col-xl-1 f-rounded-10">
+        <div class="f-flex-grow-3 f-alert f-alert-success f-rounded-10">
+            <p class="f-pt-5">hello</p>
+        </div>
+        <div class="f-flex-grow-4 f-alert f-alert-success f-rounded-10">
+            <p class="f-pt-5">hello</p>
+        </div>
+        <div class="f-flex-grow-5 f-alert f-alert-success f-rounded-10">
+            <p class="f-pt-5">hello</p>
+        </div>
+        <div class="f-flex-grow-6 f-alert f-alert-success f-rounded-10">
+            <p class="f-pt-5">hello</p>
+        </div>
+        <div class="f-flex-grow-7 f-alert f-alert-success f-rounded-10">
+            <p class="f-pt-5">hello</p>
+        </div>
+        <div class="f-flex-grow-8 f-alert f-alert-success f-rounded-10">
+            <p class="f-pt-5">hello</p>
+        </div>
+        <div class="f-flex-grow-9 f-alert f-alert-success f-rounded-10">
+            <p class="f-pt-5">hello</p>
+        </div>
+        <div class="f-flex-grow-10 f-alert f-alert-success f-rounded-10">
             <p class="f-pt-5">hello</p>
         </div>
     </div>
+
     <div class="f-justify-center">
         <form>
-            <div class="f-form-group bg-red-100">
+            <div class="f-form-group bg-red-100 f-shadow-1">
                 <h1>Login</h1>
                 <br/>
                 <input class="f-form-control f-m-1" type="" />
@@ -38,6 +61,31 @@
             </div>
         </form>
     </div>
+    <!-- Trigger/Open The Modal -->
+    <button onclick="modalOpen()" id="myBtn btn bg-green-500 f-rounded-5">Open Modal</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span onclick="modalClose()" class="close ">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body ">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+            </div>
+            <div class="modal-footer ">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script async type="module">
+        import Modal from './js/main.js'; console.log(Modal); function modOpen() { Modal.modalOpen(); }
+    </script> -->
+    <script src="js/modal.js "></script>
 </body>
 
 </html>

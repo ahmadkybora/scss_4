@@ -1,3 +1,4 @@
+@import "flex";
 // width
 .f-w-10 {
     width: 10px;
@@ -348,7 +349,7 @@
     border: none;
     height: auto;
     width: auto;
-    display: flex;
+    // display: flex;
     margin: auto;
     padding: 1%;
 }
@@ -362,8 +363,44 @@
     padding: auto;
 }
 
-// justify-content: center
-.f-justify-center {
-    display: flex;
-    justify-content: center;
+// shadow box
+.f-shadow-1 {
+    box-shadow: 1px 1px 3px 3px;
+}
+
+.f-shadow-2 {
+    box-shadow: 1px 1px 5px 5px;
+}
+
+.f-shadow-3 {
+    box-shadow: 1px 1px 7px 7px;
+}
+
+.f-shadow-4 {
+    box-shadow: 1px 1px 9px 9px;
+}
+
+.f-shadow-5 {
+    box-shadow: 1px 1px 11px 11px;
+}
+
+// order
+.f-order-1 {
+    order: 1;
+}
+
+.f-order-2 {
+    order: 2;
+}
+
+.f-order-3 {
+    order: 3;
+}
+
+.f-order-4 {
+    order: 4;
+}
+
+.f-order-5 {
+    order: 5;
 }

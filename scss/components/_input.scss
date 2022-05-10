@@ -1,6 +1,5 @@
 @import "../vars";
 .f-form-control {
-    position: relative;
     width: 97%;
     height: 20px;
     border-radius: 5px;
@@ -11,5 +10,7 @@
 
 .f-form-group {
     width: 100%;
+    // padding: 0 10px 0 10px;
+    // overflow: auto;
     // align-items: center;
 }
