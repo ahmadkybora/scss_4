@@ -1,8 +1,6 @@
-@import "components/input";
-@import "components/alert";
-@import "components/button";
-@import "components/modal";
+@import "components/index";
 @import "colors";
+@import "colors/index";
 @import "styles/general";
 @import "responsive/index";
 body {

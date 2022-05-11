@@ -2,7 +2,7 @@
   width: 97%;
   height: 20px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: #fff;
   border: gray solid 1px;
   margin: 2px; }
 
@@ -13,6 +13,27 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
+
+.f-flex-row {
+  flex-direction: row; }
+
+.f-flex-row-reverse {
+  flex-direction: row-reverse; }
+
+.f-flex-column {
+  flex-direction: column; }
+
+.f-flex-column-reverse {
+  flex-direction: column-reverse; }
+
+.f-flex-wrap {
+  flex-wrap: wrap; }
+
+.f-flex-no-wrap {
+  flex-wrap: nowrap; }
+
+.f-flex-wrap-reverse {
+  flex-wrap: wrap-reverse; }
 
 .f-flex-bas-1 {
   flex-basis: 10%; }
@@ -104,11 +125,83 @@
 .f-flex-shrink-10 {
   flex-shrink: 10; }
 
+.f-justify-start {
+  justify-content: flex-start; }
+
+.f-justify-end {
+  justify-content: flex-end; }
+
 .f-justify-center {
   justify-content: center; }
 
-.f-justify-start {
-  justify-content: flex-start; }
+.f-justify-between {
+  justify-content: space-between; }
+
+.f-justify-around {
+  justify-content: space-around; }
+
+.f-align-stretch {
+  align-content: stretch; }
+
+.f-align-center {
+  align-content: center; }
+
+.f-align-start {
+  align-content: flex-start; }
+
+.f-align-end {
+  align-content: flex-end; }
+
+.f-align-between {
+  align-content: space-between; }
+
+.f-align-around {
+  align-content: space-around; }
+
+.f-item-stretch {
+  align-items: stretch; }
+
+.f-item-center {
+  align-items: center; }
+
+.f-item-start {
+  align-items: flex-start; }
+
+.f-item-end {
+  align-items: flex-end; }
+
+.f-item-baseline {
+  align-items: baseline; }
+
+.f-self-stretch {
+  align-self: stretch; }
+
+.f-self-center {
+  align-self: center; }
+
+.f-self-start {
+  align-self: flex-start; }
+
+.f-self-end {
+  align-self: flex-end; }
+
+.f-self-baseline {
+  align-self: baseline; }
+
+.f-order-1 {
+  order: 1; }
+
+.f-order-2 {
+  order: 2; }
+
+.f-order-3 {
+  order: 3; }
+
+.f-order-4 {
+  order: 4; }
+
+.f-order-5 {
+  order: 5; }
 
 .f-alert {
   text-align: center;
@@ -120,6 +213,13 @@
 
 .f-alert-success {
   border: 1px solid #02fd24; }
+
+.f-badge {
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  border: none;
+  border-radius: 10px; }
 
 .btn {
   border: none;
@@ -141,6 +241,40 @@
 
 .btn-large {
   padding: 4% 5%; }
+
+.f-box-shadow-1, .f-card {
+  box-shadow: 1px 1px 3px 3px #c1c1c1; }
+
+.f-box-shadow-2 {
+  box-shadow: 1px 1px 5px 5px #c1c1c1; }
+
+.f-box-shadow-3 {
+  box-shadow: 1px 1px 7px 7px #c1c1c1; }
+
+.f-box-shadow-4 {
+  box-shadow: 1px 1px 9px 9px #c1c1c1; }
+
+.f-box-shadow-5 {
+  box-shadow: 1px 1px 11px 11px #c1c1c1; }
+
+.f-card {
+  width: 25%;
+  margin: 1%;
+  border: 1px gray solid;
+  border-radius: 10px;
+  text-align: center; }
+
+.f-card-title {
+  padding: 1%; }
+
+.f-card-body {
+  padding: 1%; }
+
+.f-card-footer {
+  padding: 1%; }
+
+.f-card-text {
+  padding: 1%; }
 
 .modal {
   display: none;
@@ -212,10 +346,103 @@
 .bg-green-500 {
   background-color: #0f8500; }
 
+.f-bg-black {
+  background-color: #000; }
+
+.f-bg-white {
+  background-color: #fff; }
+
+.f-bg-slate-50 {
+  background-color: #f8fafc; }
+
+.f-bg-slate-100 {
+  background-color: #f1f5f9; }
+
+.f-bg-slate-200 {
+  background-color: #e2e8f0; }
+
+.f-bg-slate-300 {
+  background-color: #cbd5e1; }
+
+.f-bg-slate-400 {
+  background-color: #94a3b8; }
+
+.f-bg-slate-500 {
+  background-color: #64748b; }
+
+.f-bg-slate-600 {
+  background-color: #475569; }
+
+.f-bg-slate-700 {
+  background-color: #334155; }
+
+.f-bg-slate-800 {
+  background-color: #475569; }
+
+.f-bg-slate-900 {
+  background-color: #0f172a; }
+
+.f-txt-black {
+  color: #000; }
+
+.f-txt-white {
+  color: #fff; }
+
+.f-txt-slate-50 {
+  color: #f8fafc; }
+
+.f-txt-slate-100 {
+  color: #f1f5f9; }
+
+.f-txt-slate-200 {
+  color: #e2e8f0; }
+
+.f-txt-slate-300 {
+  color: #cbd5e1; }
+
+.f-txt-slate-400 {
+  color: #94a3b8; }
+
+.f-txt-slate-500 {
+  color: #64748b; }
+
+.f-txt-slate-600 {
+  color: #475569; }
+
+.f-txt-slate-700 {
+  color: #334155; }
+
+.f-txt-slate-800 {
+  color: #475569; }
+
+.f-txt-slate-900 {
+  color: #0f172a; }
+
 .f-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
+
+.f-flex-row {
+  flex-direction: row; }
+
+.f-flex-row-reverse {
+  flex-direction: row-reverse; }
+
+.f-flex-column {
+  flex-direction: column; }
+
+.f-flex-column-reverse {
+  flex-direction: column-reverse; }
+
+.f-flex-wrap {
+  flex-wrap: wrap; }
+
+.f-flex-no-wrap {
+  flex-wrap: nowrap; }
+
+.f-flex-wrap-reverse {
+  flex-wrap: wrap-reverse; }
 
 .f-flex-bas-1 {
   flex-basis: 10%; }
@@ -307,11 +534,83 @@
 .f-flex-shrink-10 {
   flex-shrink: 10; }
 
+.f-justify-start {
+  justify-content: flex-start; }
+
+.f-justify-end {
+  justify-content: flex-end; }
+
 .f-justify-center {
   justify-content: center; }
 
-.f-justify-start {
-  justify-content: flex-start; }
+.f-justify-between {
+  justify-content: space-between; }
+
+.f-justify-around {
+  justify-content: space-around; }
+
+.f-align-stretch {
+  align-content: stretch; }
+
+.f-align-center {
+  align-content: center; }
+
+.f-align-start {
+  align-content: flex-start; }
+
+.f-align-end {
+  align-content: flex-end; }
+
+.f-align-between {
+  align-content: space-between; }
+
+.f-align-around {
+  align-content: space-around; }
+
+.f-item-stretch {
+  align-items: stretch; }
+
+.f-item-center {
+  align-items: center; }
+
+.f-item-start {
+  align-items: flex-start; }
+
+.f-item-end {
+  align-items: flex-end; }
+
+.f-item-baseline {
+  align-items: baseline; }
+
+.f-self-stretch {
+  align-self: stretch; }
+
+.f-self-center {
+  align-self: center; }
+
+.f-self-start {
+  align-self: flex-start; }
+
+.f-self-end {
+  align-self: flex-end; }
+
+.f-self-baseline {
+  align-self: baseline; }
+
+.f-order-1 {
+  order: 1; }
+
+.f-order-2 {
+  order: 2; }
+
+.f-order-3 {
+  order: 3; }
+
+.f-order-4 {
+  order: 4; }
+
+.f-order-5 {
+  order: 5; }
 
 .f-w-10 {
   width: 10px; }
@@ -575,21 +874,6 @@
   width: auto;
   margin: auto;
   padding: auto; }
-
-.f-shadow-1 {
-  box-shadow: 1px 1px 3px 3px; }
-
-.f-shadow-2 {
-  box-shadow: 1px 1px 5px 5px; }
-
-.f-shadow-3 {
-  box-shadow: 1px 1px 7px 7px; }
-
-.f-shadow-4 {
-  box-shadow: 1px 1px 9px 9px; }
-
-.f-shadow-5 {
-  box-shadow: 1px 1px 11px 11px; }
 
 .f-order-1 {
   order: 1; }

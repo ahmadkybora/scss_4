@@ -1,11 +1,41 @@
-// flex
+// ----------flex----------
 .f-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-// flex-basis for initial length
+// ----------flex-direction----------
+.f-flex-row {
+    flex-direction: row;
+}
+
+.f-flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.f-flex-column {
+    flex-direction: column;
+}
+
+.f-flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+// ----------flex-wrap----------
+.f-flex-wrap {
+    flex-wrap: wrap;
+}
+
+.f-flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+.f-flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+// ----------flex-basis for initial length----------
 .f-flex-bas-1 {
     flex-basis: 10%;
 }
@@ -46,7 +76,7 @@
     flex-basis: 55%;
 }
 
-// flex-grow for initial grow
+// ----------flex-grow for initial grow----------
 .f-flex-grow-1 {
     flex-grow: 1;
 }
@@ -87,7 +117,7 @@
     flex-grow: 10;
 }
 
-// flex-shrink for initial shrink
+// ----------flex-shrink for initial shrink----------
 .f-flex-shrink-1 {
     flex-shrink: 1;
 }
@@ -128,12 +158,111 @@
     flex-shrink: 10;
 }
 
-// justify-content: center
+// ----------justify-content----------
+.f-justify-start {
+    justify-content: flex-start;
+}
+
+.f-justify-end {
+    justify-content: flex-end;
+}
+
 .f-justify-center {
     justify-content: center;
 }
 
-// justify-content: flex-start
-.f-justify-start {
-    justify-content: flex-start;
+.f-justify-between {
+    justify-content: space-between;
+}
+
+.f-justify-around {
+    justify-content: space-around;
+}
+
+// ----------align-content----------
+.f-align-stretch {
+    align-content: stretch;
+}
+
+.f-align-center {
+    align-content: center;
+}
+
+.f-align-start {
+    align-content: flex-start;
+}
+
+.f-align-end {
+    align-content: flex-end;
+}
+
+.f-align-between {
+    align-content: space-between;
+}
+
+.f-align-around {
+    align-content: space-around;
+}
+
+.f-item-stretch {
+    align-items: stretch;
+}
+
+// ----------align-items----------
+.f-item-center {
+    align-items: center;
+}
+
+.f-item-start {
+    align-items: flex-start;
+}
+
+.f-item-end {
+    align-items: flex-end;
+}
+
+.f-item-baseline {
+    align-items: baseline;
+}
+
+// ----------align-self----------
+.f-self-stretch {
+    align-self: stretch;
+}
+
+.f-self-center {
+    align-self: center;
+}
+
+.f-self-start {
+    align-self: flex-start;
+}
+
+.f-self-end {
+    align-self: flex-end;
+}
+
+.f-self-baseline {
+    align-self: baseline;
+}
+
+// ----------order----------
+.f-order-1 {
+    order: 1;
+}
+
+.f-order-2 {
+    order: 2;
+}
+
+.f-order-3 {
+    order: 3;
+}
+
+.f-order-4 {
+    order: 4;
+}
+
+.f-order-5 {
+    order: 5;
 }
