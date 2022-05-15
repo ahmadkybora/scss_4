@@ -22,7 +22,7 @@
     </div>
     <h1>hello<span class="f-badge f-bg-slate-400">world</span></h1>
 
-    <div class="f-flex f-col-1">
+    <div class="f-flex">
         <div class="f-flex-grow-1 f-alert f-alert-danger f-rounded-10">
             <p class="f-pt-5 f-txt-slate-400">hello</p>
         </div>
@@ -55,6 +55,21 @@
         </div>
     </div>
 
+    <div class="f-column-3">
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+    </div>
+
     <div class="f-justify-center">
         <form>
             <div class="f-form-group bg-red-100 f-shadow-1">
@@ -73,20 +88,45 @@
     <!-- The Modal -->
     <div id="myModal" class="modal">
         <!-- Modal content -->
-        <div class="modal-content">
+        <div class="modal-content f-mt-5">
             <div class="modal-header">
                 <span onclick="modalClose()" class="close ">&times;</span>
                 <h2>Modal Header</h2>
             </div>
-            <div class="modal-body ">
-                <p>Some text in the Modal Body</p>
-                <p>Some other text...</p>
+            <div class="modal-body">
+                <div class="f-flex f-flex-wrap">
+                    <div class="f-flex-column f-justify-center f-w-75">
+                        <h1>Login</h1>
+                        <form>
+                            <div class="f-form-group">
+                                <input class="f-form-control" placeholder="username" />
+                            </div>
+                            <div class="f-form-group">
+                                <input class="f-form-control" placeholder="password" />
+                            </div>
+                            <div class="f-form-group">
+                                <button class="btn bg-green-500">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="f-w-25">
+                        <img src="public/img/login.png" alt="s" width="150px"/>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer ">
                 <h3>Modal Footer</h3>
             </div>
         </div>
 
+    </div>
+
+    <div class="f-container f-flex f-jsutify-center f-flex-wrap f-w-100 f-h-100 bg-green-100 f-text-center">
+        <div class="bg-red-100 f-border-1 f-pt-5 f-ml-5 f-rounded-10">p</div>
+        <div class="bg-red-100 f-border-1 f-pt-5 f-ml-5 f-rounded-10">p</div>
+        <div class="bg-red-100 f-border-1 f-pt-5 f-ml-5 f-rounded-10">p</div>
+        <div class="bg-red-100 f-border-1 f-pt-5 f-ml-5 f-rounded-10">p</div>
+        <div class="bg-red-100 f-border-1 f-pt-5 f-ml-5 f-rounded-10">p</div>
     </div>
     <!-- <script></script> -->
     <script src="js/main.js"></script>
